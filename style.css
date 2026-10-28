@@ -340,3 +340,82 @@ body {
         padding: 20px 10px;
     }
 }
+
+.clients {
+    background-color: #252b45;
+    color: white;
+    text-align: center;
+    padding: 80px 120px;
+}
+
+.clients h2 {
+    font-size: 32px;
+}
+
+.clients-text {
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 15px auto 0;
+}
+
+.review {
+    background-color: white;
+    max-width: 450px;
+    margin: 60px auto 0;
+    padding: 25px 40px;
+    border-radius: 3px;
+}
+
+.review img {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-text {
+    color: #777;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-top: 25px;
+}
+
+.stars {
+    color: #f5c518;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.stars i {
+    margin: 0 2px;
+}
+
+.review h3 {
+    color: #252b45;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.review span {
+    color: #777;
+    font-size: 11px;
+    display: block;
+    margin-top: 12px;
+}
+
+@media (max-width: 500px) {
+
+    .clients {
+        padding: 60px 20px;
+    }
+
+    .clients h2 {
+        font-size: 28px;
+    }
+
+    .review {
+        margin-top: 40px;
+        padding: 25px 20px;
+    }
+}
