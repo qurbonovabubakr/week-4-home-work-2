@@ -509,3 +509,125 @@ body {
         font-size: 18px;
     }
 }
+
+.pricing {
+    background-color: #252b45;
+    color: white;
+    text-align: center;
+    padding: 80px 120px;
+}
+
+.pricing h2 {
+    font-size: 32px;
+}
+
+.pricing-text {
+    font-size: 12px;
+    line-height: 1.6;
+    max-width: 340px;
+    margin: 15px auto 0;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 720px;
+    margin: 60px auto 0;
+}
+
+.plan {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: white;
+    border: 1px solid #1da1f2;
+    border-radius: 5px;
+    padding: 35px 30px;
+    text-align: left;
+}
+
+.plan h3 {
+    color: #1da1f2;
+    font-size: 18px;
+}
+
+.plan p {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.plan-left p {
+    margin-top: 15px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.number {
+    color: #1da1f2;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.plan .dollar {
+    color: #1da1f2;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.plan .month {
+    color: #6fb8ee;
+    font-size: 11px;
+}
+
+.plan-btn {
+    display: block;
+    background-color: #1da1f2;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 11px 30px;
+    border-radius: 3px;
+    margin-top: 18px;
+}
+
+.plan-btn:hover {
+    background-color: #0d8bd9;
+}
+
+@media (max-width: 500px) {
+
+    .pricing {
+        padding: 60px 20px;
+    }
+
+    .pricing h2 {
+        font-size: 28px;
+    }
+
+    .plans {
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .plan {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 25px;
+    }
+
+    .plan-btn {
+        display: inline-block;
+        padding: 11px 35px;
+    }
+}
